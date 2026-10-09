@@ -1,12 +1,36 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + twiland E-larning platform</title>
+    <title>Darsi | Short online courses, planned week by week</title>
+    <meta
+      name="description"
+      content="Darsi is a front-end demo of an online course platform: browse courses, enroll, and track your progress lesson by lesson."
+    />
+    <meta name="theme-color" content="#2340D9" />
+    <meta property="og:title" content="Darsi | Short online courses, planned week by week" />
+    <meta property="og:description" content="A front-end demo of an online course platform: browse courses, enroll, and track your progress lesson by lesson." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Manrope:wght@400;500;600;700&display=swap"
+    />
+    <script>
+      // Apply the saved or system theme before the first paint, so the page does not flash.
+      try {
+        var saved = localStorage.getItem('darsi:theme')
+        var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (dark) document.documentElement.classList.add('dark')
+      } catch (e) {}
+    </script>
   </head>
-  <body >
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
