@@ -1,10 +1,10 @@
-# Darsi
+# Moon Academy
 
 A front end for an online course platform, built with React and Tailwind CSS. You can search the catalog, open a course, enroll, tick lessons off, and come back later to find your place.
 
-**Live demo:** https://darsi-courses.vercel.app
+**Live demo:** https://moon-academy-courses.vercel.app
 
-Darsi is a demo. The courses and instructors are sample content, nothing is sold, and everything you do is kept in your own browser.
+Moon Academy is a demo. The courses and instructors are sample content, nothing is sold, and everything you do is kept in your own browser.
 
 ![Home page](./docs/home.jpg)
 

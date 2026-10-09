@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
 // The "account" in this demo lives only in the visitor's browser.
 // Shape: { name: string | null, email: string | null, enrolled: { [slug]: string[] } }
-const STORAGE_KEY = 'darsi:learner'
+const STORAGE_KEY = 'moon-academy:learner'
 const empty = { name: null, email: null, enrolled: {} }
 
 function load() {

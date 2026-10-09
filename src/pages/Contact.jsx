@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import FormField from '../components/FormField.jsx'
 import { emailPattern, useLearner } from '../lib/learner.jsx'
 
-const topics = ['A question about a course', 'A problem with the site', 'Teaching on Darsi', 'Something else']
+const topics = ['A question about a course', 'A problem with the site', 'Teaching at Moon Academy', 'Something else']
 
 function check(values) {
   const errors = {}
@@ -45,7 +45,7 @@ export default function Contact() {
         <div className="panel max-w-2xl" role="status">
           <h1 className="text-4xl font-bold tracking-tight">Thank you, {values.name.trim()}.</h1>
           <p className="soft mt-4 text-lg leading-8">
-            This is where a real site would confirm your message. Darsi is a demo, so the message was checked and then discarded: nothing was sent or stored.
+            This is where a real site would confirm your message. Moon Academy is a demo, so the message was checked and then discarded: nothing was sent or stored.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/courses" className="btn-primary">

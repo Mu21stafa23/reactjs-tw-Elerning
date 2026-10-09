@@ -26,8 +26,8 @@ export default function Footer() {
           </ul>
         </nav>
 
-        <nav aria-label="Darsi">
-          <h2 className="font-body text-base font-bold">Darsi</h2>
+        <nav aria-label="Moon Academy">
+          <h2 className="font-body text-base font-bold">Moon Academy</h2>
           <ul className="mt-4 space-y-2.5">
             {[
               ['/courses', 'All courses'],
@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className="border-t border-line dark:border-night-line">
         <p className="wrap soft py-6 text-sm leading-6">
-          Darsi is a front-end demo. Courses, instructors and figures are sample data, and nothing you enter leaves
+          Moon Academy is a front-end demo. Courses, instructors and figures are sample data, and nothing you enter leaves
           your browser.
         </p>
       </div>

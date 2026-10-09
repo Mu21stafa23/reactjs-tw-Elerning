@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { MoonIcon, SunIcon } from './icons.jsx'
 
-const STORAGE_KEY = 'darsi:theme'
+const STORAGE_KEY = 'moon-academy:theme'
 
 export default function ThemeToggle() {
   // index.html has already set the class before React starts, so read it from there.
