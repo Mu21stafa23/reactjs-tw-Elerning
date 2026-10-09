@@ -22,13 +22,14 @@ function linkClass({ isActive }) {
 
 export function Brand() {
   return (
-    <Link to="/" className="flex items-center gap-2.5" aria-label="Darsi, home">
-      <svg viewBox="0 0 64 64" className="h-9 w-9" aria-hidden="true">
+    <Link to="/" className="flex items-center gap-2.5" aria-label="Moon Academy, home">
+      <svg viewBox="0 0 64 64" className="h-9 w-9 flex-none" aria-hidden="true">
         <rect width="64" height="64" rx="14" className="fill-cobalt" />
-        <path d="M18 14h14c11 0 18 7 18 18s-7 18-18 18H18z" className="fill-marker" />
-        <path d="M27 23h5c5.5 0 9 3.5 9 9s-3.5 9-9 9h-5z" className="fill-cobalt" />
+        {/* A crescent: a full disc with a second disc, in the background color, laid over it. */}
+        <circle cx="30" cy="33" r="18" className="fill-marker" />
+        <circle cx="38" cy="27" r="15" className="fill-cobalt" />
       </svg>
-      <span className="font-display text-2xl font-bold tracking-tight">Darsi</span>
+      <span className="whitespace-nowrap font-display text-2xl font-bold tracking-tight">Moon Academy</span>
     </Link>
   )
 }

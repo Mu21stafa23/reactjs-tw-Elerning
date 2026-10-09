@@ -28,7 +28,7 @@ export default function About() {
     <div className="wrap pb-8 pt-12 lg:pt-16">
       <h1 className="max-w-4xl text-5xl font-bold leading-[1.05] tracking-tight sm:text-6xl">A course platform you can try end to end.</h1>
       <p className="soft mt-6 max-w-2xl text-lg leading-8">
-        Darsi is a front-end demo. The {totals.courses} courses and {totals.lessons} lessons are sample content, the instructors are invented, and nothing is
+        Moon Academy is a front-end demo. The {totals.courses} courses and {totals.lessons} lessons are sample content, the instructors are invented, and nothing is
         sold. What is real is the interface: you can search, enroll, tick off lessons and come back to find your place.
       </p>
 
